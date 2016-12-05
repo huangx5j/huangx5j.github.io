@@ -1,0 +1,62 @@
+@media screen and (max-width: 500px) {
+	body {
+		background: hotpink;
+		margin:0;
+		padding:0;
+		height:100%;
+	}
+}	
+
+@media screen and (min-width: 501px) {
+  body {
+    background-color: teal;
+  }
+}
+
+#Chile-Mountains {
+	width: 300px;
+	height: 300px;
+}
+
+#first-title {
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	border-style: dashed;
+}
+
+#favorite {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightgreen;
+}
+
+#ordered-list {
+	font: italic bold 12px/30px Georgia, serif;
+}
+
+#footer {
+	background-image: url("pink-flowers.jpg");
+	margin: auto;
+	text-align: center;
+	border: 3px solid #73AD21;
+}
+
+.table{
+	text-align: center;
+	color: red;
+}
+
+a:link {
+    color: red;
+    background-color: yellow;
+}
+
+a:visited {
+    color: purple;
+    background-color: blue;
+}
